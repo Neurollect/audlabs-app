@@ -1,4 +1,4 @@
-package com.example.audlabs
+package com.neurollect.audlabs
 
 import io.flutter.embedding.android.FlutterActivity
 
