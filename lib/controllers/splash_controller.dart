@@ -1,5 +1,5 @@
+import 'package:audlabs/app/audlabs/audlabs_app.dart';
 import 'package:get/get.dart';
-import 'package:audlabs/app/home.dart';
 
 class SplashScreenController extends GetxController {
   static SplashScreenController get find => Get.find();
@@ -10,7 +10,7 @@ class SplashScreenController extends GetxController {
         const Duration(milliseconds: 3000),
       ),
     ]).then((responseList) async {
-      Get.to(const Home());
+      Get.to(const AudlabsApp());
     });
   }
 }
