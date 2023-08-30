@@ -23,6 +23,7 @@ class AudlabsAppState extends State<AudlabsApp> {
     double side = MediaQuery.of(context).size.width / 8;
     return Scaffold(
       resizeToAvoidBottomInset: false,
+      backgroundColor: Colors.black,
       body: Stack(
         children: [
           Container(
