@@ -17,6 +17,7 @@ class AudlabAbout extends StatelessWidget {
             style: GoogleFonts.urbanist(
               fontSize: 50,
               fontWeight: FontWeight.bold,
+              color: Colors.white,
             ),
           ),
           const SizedBox(height: 20),
@@ -25,6 +26,7 @@ class AudlabAbout extends StatelessWidget {
             textAlign: TextAlign.justify,
             style: GoogleFonts.urbanist(
               fontSize: 16,
+              color: Colors.white,
             ),
           ),
           const SizedBox(height: 10),
@@ -37,6 +39,7 @@ class AudlabAbout extends StatelessWidget {
                 style: GoogleFonts.urbanist(
                   fontSize: 24,
                   fontWeight: FontWeight.w600,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: 10),
